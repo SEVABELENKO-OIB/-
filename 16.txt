@@ -1,0 +1,61 @@
+
+class CashRegister:
+    def __init__(self):
+        self.money = 0
+
+    def top_up(self, amount):
+        self.money += amount
+
+    def count_1000(self):
+        return self.money // 1000
+
+    def take_away(self, amount):
+        if amount <= self.money:
+            self.money -= amount
+        else:
+            raise ValueError("Недостаточно денег в кассе!")
+
+# Класс Черепашка
+class Turtle:
+    def __init__(self, x, y, s):
+        self.x = x
+        self.y = y
+        self.s = s
+
+    def go_up(self):
+        self.y += self.s
+
+    def go_down(self):
+        self.y -= self.s
+
+    def go_left(self):
+        self.x -= self.s
+
+    def go_right(self):
+        self.x += self.s
+
+    def evolve(self):
+        self.s += 1
+
+    def degrade(self):
+        if self.s > 1:
+            self.s -= 1
+        else:
+            raise ValueError("Невозможно уменьшить s до значения ≤ 0!")
+
+    def count_moves(self, x2, y2):
+        moves_x = abs(x2 - self.x) // self.s
+        moves_y = abs(y2 - self.y) // self.s
+        return moves_x + moves_y
+
+# Пример использования классов
+cash_register = CashRegister()
+cash_register.top_up(5000)
+print(cash_register.count_1000())
+
+turtle = Turtle(0, 0, 2)
+turtle.go_up()
+turtle.go_right()
+turtle.evolve()
+turtle.degrade()
+print(turtle.count_moves(5, 5))

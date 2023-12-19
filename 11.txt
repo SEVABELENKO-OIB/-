@@ -1,0 +1,72 @@
+python
+def factorial(n):
+    result = 1
+    for i in range(1, n+1):
+        result *= i
+    return result
+
+def factorial_list(n):
+    f = factorial(n)
+    factorials = []
+    for num in range(f, 0, -1):
+        factorials.append(num)
+    return factorials
+
+# Пример использования функции
+num = int(input("Введите число: "))
+factorials = factorial_list(num)
+print(factorials)
+
+2 задача
+
+python
+# Создаем пустой словарь для базы данных pets
+pets = {}
+
+# Функция для добавления записи о питомце
+def create(id, name, species, breed, age):
+    pets[id] = {
+        'name': name,
+        'species': species,
+        'breed': breed,
+        'age': age
+    }
+    print("Запись о питомце успешно добавлена!")
+
+# Функция для чтения записи о питомце по идентификатору
+def read(id):
+    if id in pets:
+        pet = pets[id]
+        print("Информация о питомце:")
+        print("Имя:", pet['name'])
+        print("Вид:", pet['species'])
+        print("Порода:", pet['breed'])
+        print("Возраст:", pet['age'])
+    else:
+        print("Питомец с указанным идентификатором не найден.")
+
+# Функция для обновления записи о питомце по идентификатору
+def update(id, name, species, breed, age):
+    if id in pets:
+        pets[id]['name'] = name
+        pets[id]['species'] = species
+        pets[id]['breed'] = breed
+        pets[id]['age'] = age
+        print("Запись о питомце успешно обновлена!")
+    else:
+        print("Питомец с указанным идентификатором не найден.")
+
+# Функция для удаления записи о питомце по идентификатору
+def delete(id):
+    if id in pets:
+        del pets[id]
+        print("Запись о питомце успешно удалена!")
+    else:
+        print("Питомец с указанным идентификатором не найден.")
+
+# Пример использования функций
+create(1, "Барсик", "Кот", "Мейн-кун", 3)
+create(2, "Рыжик", "Кот", "Британская", 2)
+read(1)
+update(2, "Мурзик", "Кот", "Персидская", 5)
+delete(1)
