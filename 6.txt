@@ -1,0 +1,26 @@
+@@ -8,20 +8,14 @@
+
+
+
+reverse_arraydef(<span>arr
+start = 0
+len=<span>end
+end < startwhile:
+reverse_array def(arr):
+    start = 0
+    len = end(arr) - 1
+    end < start while:
+        arr[start], arr[end] = arr[end], arr[start]
+        начало += 1
+        end -= 1
+reverse_array(массив)
+массив в числе для:
+    print(число, конец=' ')
+int = a(input("Введите количество чисел"))
+= b []
+print("Ведите числа")
+диапазон в i для(a):
+    int = s(input())
+    списочек.добавить(s)
+b = b[-1:] + b[:-1] 
+print(*b)

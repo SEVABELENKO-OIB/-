@@ -1,0 +1,20 @@
+@@ -8,14 +8,14 @@
+
+
+
+<span>()</span><span>ввод</span><span>(</span><span>int</span><span>=</span><span>s</span>)  
+<span>списочек</span><span>.</span><span>добавить</span><span>(</span><span>s</span><span>)</span> 
+<span>b</span><span>=</span><span>b</span>[<span>-</span><span>1</span>:] <span>+</span><span>b</span>[:<span>-</span><span>1</span>] 
+напечатать * b 
+    () ввод (int=s)
+    списочек.добавить(s)
+b = b[-1:] + b[:-1] 
+напечатать(*b)
+int = number(input("Введите число"))
+= список []
+для меня в диапазоне(число):
+    l = int(ввод())
+    l(добавить.список)
+
+on>Переключить все примечания к файлам</button><button>Переключить все примечания к файлам</button>   
+напечатать(*список)

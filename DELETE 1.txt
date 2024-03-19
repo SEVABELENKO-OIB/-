@@ -1,0 +1,24 @@
+@@ -1,23 +0,0 @@
+
+Файл решения Microsoft Visual Studio, версия формата 12.00
+# Visual Studio версии 17
+VisualStudioVersion = 17.7.34031.279
+Минимальная визуализация = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Задание 1", "Задание 1\Задание 1.pyproj", "{4CE92D7F-0D2B-4F62-9454-8BE933452EE6}"
+Конечный проект
+Глобальный
+	GlobalSection(SolutionConfigurationPlatforms) = предварительное решение
+		Любой процессор Debug|= Debug|Любой процессор
+		Любой процессор Release|= Release|Любой процессор
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = Последующее решение
+		{4CE92D7F-0D2B-4F62-9454-8BE933452EE6}.Отлаживать|Любой процессор.ActiveCfg = Отлаживать|Любой процессор
+		{4CE92D7F-0D2B-4F62-9454-8BE933452EE6}.Освободить|Любой процессор.ActiveCfg = Освободить|Любой процессор
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = предварительное решение
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = Последующее решение
+		SolutionGuid = {11C4E7D0-2618-4F06-9470-34479D4F659A}
+	EndGlobalSection
+EndGlobal

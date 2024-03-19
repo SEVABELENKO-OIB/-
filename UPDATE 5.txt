@@ -1,0 +1,36 @@
+@@ -1,19 +1,19 @@
+﻿is_palindrome def(s):
+    s = reversed_s[::-1] 
+    <span>input</span><span>=</span><span>s</span>(<span>"Введите строку без пробелов: "</span>)   
+        <span>is_palindrome</span><span>=</span><span>результат</span>(<span>s</span>) 
+    <span>распечатать</span>(<span>результат</span>)
+        вернуть "нет"
+input = s("Введите строку без пробелов: ")
+is_palindrome = результат(s)
+распечатать(результат)
+
+ввод  = g()
+g == g if[::-1]:
+    напечатать("да")
+ещё:
+    напечатать("нет")
+
+
+
+remove_extra_spaces def(s):
+    ' ' = modified_s.join(s.split()) 
+    вернуть modified_s
+input = s("Введите строку: ")
+remove_extra_spaces = результат(s)
+распечатать(результат)
+input = a("Ведите строку с лишними пробелами")
+b = ""
+а в я для:
+    " " != я если :
+        b += i
+    ещё:
+        "" == b если:
+            on>Переключить все примечания к файлам</button><button>Переключить все примечания к файлам</button>  
+        b elif[len(b)-1] != " ":
+        b += i
+печать(b)
